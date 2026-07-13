@@ -66,7 +66,7 @@ Verify User Email Validation On Join
     ...    appium:appActivity=${APP_ACTIVITY}
     ...    appium:noReset=${NO_RESET}
 
-    # Step 1: Click the initial "Join" button on the landing page
+    # Step 1: Click the initial "Join" button on the landing page(For already joined user email)
     Wait Until Page Contains Element    xpath=//android.view.View[@resource-id="Join_button"]/android.widget.Button    timeout=20s
     Click Element                       xpath=//android.view.View[@resource-id="Join_button"]/android.widget.Button
 

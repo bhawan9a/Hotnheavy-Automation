@@ -89,3 +89,4 @@ Verify User Can Complete Forgot Password Flow Successfully
 
     Sleep    7s
     Close Application
+    
